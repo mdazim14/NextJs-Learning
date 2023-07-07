@@ -79,7 +79,7 @@ const SideNavBar: FC<PropsType> = ({ toggleSideBar }) => {
             href={item.url}
           >
             {/* {toggle? <h5>H</h5> : `${item.title}` } */}
-            {toggle? <h5>H</h5> : <h5>{item.title}`</h5> }
+            {toggle? <h5>HI</h5> : <h5>{item.title}`</h5> }
           </Link>
         ))}
       </div>
